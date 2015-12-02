@@ -1,0 +1,126 @@
+ul {
+	list-style: none;
+}
+
+/* Containers */
+
+.header-background {
+	background: linear-gradient(to left, #283048 , #859398);
+
+}
+
+/* Footer */
+
+
+footer {
+	margin-top: 50px;
+}
+
+
+/* Page Header and Main Nav */
+
+h1 {
+	font-size: 3.5em;
+	position: absolute;
+	top: 200px;
+	left: 0;
+	width: 100%;
+}
+
+.page-header h3 {
+	font-size: 2.5em;
+	position: absolute;
+	top: 300px;
+	left: 0;
+	width: 100%;
+
+}
+
+.page-header {
+	text-align: center;
+	background-color: transparent;
+	/*padding-bottom: 250px;*/
+	color: whitesmoke;
+	height: 800px;
+}
+
+.nav-pills li {
+	width: 33%;
+	text-align: center;
+}
+.nav-pills>li+li { 
+	margin-left: 0; 
+}
+
+.nav-pills a {	
+	text-decoration: none;
+	transition: all 0.5s ease-out 0s;
+	text-transform: uppercase; 
+	color: whitesmoke;
+	font-size: 1.5rem;
+}
+
+.nav-pills a:hover {
+    border-radius: 10px;
+    padding: 10px;
+    color: firebrick;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: #000;
+}
+
+.nav {
+	position: relative;
+	top: 750px;
+}
+
+.nav-pills > .middle-item > a {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* School Assignments */
+
+.main-section h3 {
+	font-size: 1.8em;
+	
+	
+	
+	color: black;
+}
+
+.assignment-list {
+	font-size: 1.2em;
+}
+
+.assignment-list li {
+	margin-top: 5px;
+}
+
+.assignment-list li a {
+	transition: all 0.5s ease-out 0s;
+	text-decoration: none;
+	color: white;
+	/*color: #1F3A93;*/
+}
+.assignment-list li a:hover {
+	border-radius: 10px;
+    padding: 10px;
+    color: firebrick;
+    background-color: black;
+}
+
+/* Panels */
+.kursA {
+	background-color: #337AB7;
+}
+
+.kursB {
+	background-color: rgba(240, 173, 78, 1);
+}
+
+.panel-primary > .panel-heading {
+	background-color: rgba(51, 122, 183, 0.8);
+}
+

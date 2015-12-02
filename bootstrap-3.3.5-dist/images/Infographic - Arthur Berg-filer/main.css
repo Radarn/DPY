@@ -1,0 +1,45 @@
+ul > li {
+	list-style: none;
+	text-align: center;
+	margin-top: 5px;
+
+}
+
+.btn-lg, .btn-group-lg > .btn {
+	font-size: 4em;
+	border-radius: 50%;
+	width: 60%;
+	margin-top: 20px;
+}
+
+body {
+	background: linear-gradient(to left, #D3959B , #BFE6BA);
+}
+
+.small-device{
+	font-size: 2em;
+	background-color: #777;
+	font-weight: bold;
+	color: #FFF;
+	padding: 0.2em 0.6em 0.3em;
+	border-radius: 10px;
+	display: none;
+
+}
+
+
+
+
+/* Media Queries */
+
+
+
+@media (max-width: 585px) {
+	.label {
+		display: none;
+	}
+	.small-device {
+		display: block;
+	}
+
+}
