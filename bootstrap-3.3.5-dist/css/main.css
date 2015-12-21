@@ -2,6 +2,19 @@ ul {
 	list-style: none;
 }
 
+.panel {
+	width: 48%;
+}
+/* Images */
+
+.Pictureofme {
+
+	height: 350px;
+	width: 350px;
+	border-radius: 50%;
+
+}
+
 /* Containers */
 
 .header-background {
@@ -14,6 +27,16 @@ ul {
 
 footer {
 	margin-top: 50px;
+}
+
+/* Buttons */
+
+.btn-group-lg > .btn, .btn-lg {
+	background-color: #000;
+	color: white;
+	border-radius: 20px;
+	margin-left: 2%;
+	margin-top: 0.5%;
 }
 
 
@@ -41,7 +64,7 @@ h1 {
 	background-color: transparent;
 	/*padding-bottom: 250px;*/
 	color: whitesmoke;
-	height: 800px;
+	height: 650px;
 }
 
 .nav-pills li {
@@ -54,40 +77,46 @@ h1 {
 
 .nav-pills a {	
 	text-decoration: none;
-	transition: all 0.5s ease-out 0s;
+	transition: all 0.2s ease-out 0s;
 	text-transform: uppercase; 
 	color: whitesmoke;
 	font-size: 1.5rem;
 }
 
-.nav-pills a:hover {
-    border-radius: 10px;
-    padding: 10px;
-    color: firebrick;
-}
 
 .nav > li > a:focus, .nav > li > a:hover {
-    background-color: #000;
+	
+	font-size: 1.18em;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 .nav {
 	position: relative;
-	top: 750px;
+	top: 600px;
 }
 
 .nav-pills > .middle-item > a {
 	margin-left: 5px;
 	margin-right: 5px;
 }
+/* Blogg page */
+
+.bloggMain h2 {
+	margin-bottom: 4%;
+}
+
 
 /* School Assignments */
 
 .main-section h3 {
-	font-size: 1.8em;
-	
-	
+	font-size: 1.8em;	
 	
 	color: black;
+}
+
+.school-assignments {
+	height: 500px;
 }
 
 .assignment-list {
@@ -99,16 +128,16 @@ h1 {
 }
 
 .assignment-list li a {
-	transition: all 0.5s ease-out 0s;
+	transition: all 0.2s ease-out 0s;
 	text-decoration: none;
 	color: white;
 	/*color: #1F3A93;*/
 }
 .assignment-list li a:hover {
-	border-radius: 10px;
-    padding: 10px;
-    color: firebrick;
-    background-color: black;
+	font-size: 1.1em;
+	text-decoration: underline;
+    /*color: firebrick;
+    background-color: black;*/
 }
 
 /* Panels */
