@@ -2,6 +2,11 @@ ul {
 	list-style: none;
 }
 
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
 .panel {
 	width: 48%;
 }
@@ -31,6 +36,7 @@ footer {
 	margin-left: 2%;
 	margin-top: 0.5%;
 }
+
 
 
 /* Page Header and Main Nav */
@@ -110,6 +116,7 @@ h1 {
 
 .school-assignments {
 	height: 500px;
+
 }
 
 .assignment-list {
@@ -135,13 +142,26 @@ h1 {
 
 /* About Me */
 
+.main-section {
+
+
+margin-bottom: 0px;
+
+background: #403B4A; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #403B4A , #E7E9BB); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #403B4A , #E7E9BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        
+}
 .aboutme-text {
 	width: 45%;
 }
 
 .aboutme {
 	padding: 10px;
+
 }
+
 
 .aboutme img {
 
@@ -155,14 +175,23 @@ h1 {
 
 /* Contact */
 
+
 .contact {
 	padding: 10px;
+        
+}
+
+
+#contact {
+	height: 550px;
+
 }
 
 .contact-form {
 	width: 30%;
 	margin-left: 18%;
 	margin-top: 5%;
+	float: left;
 	
 }
 
@@ -171,6 +200,8 @@ h1 {
 	font-size: 1.6em;
 	margin-right: 16%;
 	margin-top: 5%;
+	float: right;
+
 
 }
 
@@ -215,11 +246,23 @@ h1 {
 	background-color: rgba(51, 122, 183, 0.8);
 }
 
+.panel-primary {
+	float: left;
+}
+
+.panel-warning {
+	float: right;
+}
 /* Media Queries */
 
 @media (max-width: 768px) {
-	.panel {
+	.panel,
+	.contact-card,
+	.contact-form {
 		float: none;
+	}
+	#contact {
+		height: 900px;
 	}
 
 }
