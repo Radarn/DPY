@@ -7,13 +7,6 @@ ul {
 }
 /* Images */
 
-.Pictureofme {
-
-	height: 350px;
-	width: 350px;
-	border-radius: 50%;
-
-}
 
 /* Containers */
 
@@ -140,6 +133,75 @@ h1 {
     background-color: black;*/
 }
 
+/* About Me */
+
+.aboutme-text {
+	width: 45%;
+}
+
+.aboutme {
+	background-color: black;
+	padding: 10px;
+}
+
+.aboutme img {
+
+	height: 350px;
+	width: 350px;
+	
+	border-radius: 50%;
+}
+
+.
+
+/* Contact */
+
+.contact {
+	padding: 10px;
+}
+
+.contact-form {
+	width: 30%;
+	margin-left: 18%;
+	
+}
+
+.contact-card {
+	width: 32%;
+	font-size: 1.6em;
+	margin-right: 16%;
+	margin-top: 5%;
+
+}
+
+.contact-card ul li {
+	margin: 10px;
+	padding: 10px;
+}
+
+#message {
+	padding: 50px;
+}
+
+.contact-card span {
+	padding-right: 10px;
+	font-size: 4rem;
+}
+
+.contact-card a {
+	color: black;
+	transition: all 0.3s ease-out 0s;
+}
+
+.contact-card a:hover {
+	color: blue;
+}
+
+.contact-card img {
+	position: relative;
+	right: 6px;
+
+}
 /* Panels */
 .kursA {
 	background-color: #337AB7;
@@ -151,5 +213,14 @@ h1 {
 
 .panel-primary > .panel-heading {
 	background-color: rgba(51, 122, 183, 0.8);
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+	.panel {
+		float: none;
+	}
+
 }
 

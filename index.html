@@ -16,7 +16,7 @@
 				<nav>
 					<ul class="nav nav-pills">					
 						<li><a href="#">School Assignments</a></li>
-						<li class="middle-item"><a href="#">About me</a></li>
+						<li><a href="#aboutme">About me</a></li>
 						<li><a href="#">Contact</a></li>					
 					</ul>			
 				</nav>		
@@ -48,10 +48,10 @@
 				</section>
 				<section class="aboutme" id="aboutme">
 					<div class="row">
-						<div class="col-sm-6 col-sm-offset-1">
-							<img src="bootstrap-3.3.5-dist/images/study.jpg" class="Pictureofme" rel="Pictureofme">
+						<div class="col-sm-3 col-sm-offset-1">
+							<img src="bootstrap-3.3.5-dist/images/study.jpg" alt="selfie">
 						</div>
-						<div class="col-sm-4">
+						<div class="col-sm-6 col-sm-offset-2 aboutme-text">
 							<h3>Hi, I'm Arthur Berg</h3>
 							<p>I’m a Front-end Developer student at Lernia Yrkeshögskola. When learning something new, either playing an instrument or writing code, it’s important for me to see it as a an going proccess and accept the fact that it’s the difficulties and obstacles that makes me develope.</p>
 							
@@ -70,6 +70,29 @@
 
 				</section>
 				<section class="contact" id="contact">
+				<form class="pull-left contact-form" id="contact-form">
+					<div class="form-group">
+						<label for="namn">Namn</label>
+						<input type="name" class="form-control" id="name" placeholder="Name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" class="form-control" id="email" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea class="form-control" rows="10" type="message"></textarea>
+					</div>
+					<button type="submit" class="btn btn-default">Send Message</button>
+				</form>
+				<div class="contact-card pull-right">
+					<ul>
+						<li><a href="mailto:radarberg@gmail.com"><span class="glyphicon glyphicon-envelope"></span>radarberg@gmail.com</a></li>
+						<li><a href="https://github.com/Radarn"><img src="bootstrap-3.3.5-dist/images/githublogo.jpg">github.com/Radarn</a></li>
+						<li><span class="glyphicon glyphicon-earphone"></span>Cellphone: 0761896222</li>
+
+					</ul>
+				</div>
 					
 
 				</section>
