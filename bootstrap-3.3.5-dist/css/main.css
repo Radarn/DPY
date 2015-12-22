@@ -167,7 +167,6 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 
 .aboutme img {
-	/*margin-top: 26%;*/
 	position: relative;
 	top: 20px;
 	left: 50px;
@@ -281,7 +280,6 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 @media (max-width: 768px) {
 	.panel,
-	.contact-card,
 	.contact-form {
 		position: initial;
 		width: 100%;
@@ -297,10 +295,10 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	}
 
 
-	#contact {
+	.contact-card{
+		position: initial;
+		text-align: left;
 		
-		margin-top: 0px;
-
 	}
 
 	.aboutme-text {
