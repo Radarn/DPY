@@ -107,8 +107,7 @@ h1 {
 }
 
 .school-assignments {
-	height: 500px;
-	margin-bottom: 150px;
+	margin-bottom: 80px;
 
 }
 
@@ -160,10 +159,6 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 .aboutme {
 	padding: 120px 10px 100px 10px;
 	border-top: 1px solid black;
-
-
-
-
 }
 
 
@@ -182,7 +177,7 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 
 #contact {
-	height: 690px;
+	
 	border-top: 1px solid black;
 	padding: 80px 10px 10px 10px;
 	/*background-color: gray;*/
@@ -198,7 +193,7 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	width: 30%;
 	margin-left: 18%;
 	margin-top: 5%;
-	float: left;
+	display: inline-block;
 	
 }
 
@@ -207,7 +202,10 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	font-size: 1.6em;
 	margin-right: 16%;
 	margin-top: 5%;
-	float: right;
+	display: inline-block;
+	position: relative;
+	bottom: 170px;
+	left: 40px;
 
 
 }
@@ -257,17 +255,18 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 }
 
 .panel-primary {
-	float: left;
+	position: relative;
+	bottom: 144px;
 	
 }
 
 .panel {
 	width: 48%;
+	display: inline-block;
 }
 
-
 .panel-warning {
-	float: right;
+	
 }
 
 /******************************** Media Queries ********************************/
@@ -276,14 +275,18 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	.panel,
 	.contact-card,
 	.contact-form {
-		float: none;
+		position: initial;
 		width: 100%;
 		margin: 0 auto;
 	}
 
+	.panel-primary {
+		position: initial;
+	}
+
 
 	#contact {
-		height: 850px;
+		
 		margin-top: 0px;
 
 	}
@@ -298,12 +301,6 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 }
 
-@media (max-width: 350px) {
-	#contact {
-		height: 950px;
-	}
-
-}
 
 
 
