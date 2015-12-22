@@ -2,30 +2,26 @@ ul {
 	list-style: none;
 }
 
-.container-fluid {
-	padding-right: 0px;
-	padding-left: 0px;
-}
 
-.panel {
-	width: 48%;
-}
+
 /* Images */
 
 
 /* Containers */
 
 .header-background {
-	background: linear-gradient(to left, #283048 , #859398);
+	/*background: linear-gradient(to left, #283048 , #859398);*/
+	background: black;
 
 }
 
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: -1.465%;
+}
 /* Footer */
 
-
-footer {
-	margin-top: 50px;
-}
 
 /* Buttons */
 
@@ -110,12 +106,17 @@ h1 {
 
 .main-section h3 {
 	font-size: 1.8em;	
-	
-	color: black;
 }
 
 .school-assignments {
 	height: 500px;
+	margin-bottom: 150px;
+
+}
+
+.school-assignments h2 {
+	
+	margin-bottom: 5%;
 
 }
 
@@ -146,19 +147,25 @@ h1 {
 
 
 margin-bottom: 0px;
+color: whitesmoke;
 
-background: #403B4A; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #403B4A , #E7E9BB); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #403B4A , #E7E9BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #232526; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
         
 }
 .aboutme-text {
 	width: 45%;
+	font-size: 1.2em;
 }
 
 .aboutme {
-	padding: 10px;
+	padding: 100px 10px 100px 10px;
+	border-top: 2px solid black;
+
+
+
 
 }
 
@@ -171,20 +178,24 @@ background: linear-gradient(to left, #403B4A , #E7E9BB); /* W3C, IE 10+/ Edge, F
 	border-radius: 50%;
 }
 
-.
+
 
 /* Contact */
 
 
-.contact {
-	padding: 10px;
-        
-}
+
 
 
 #contact {
-	height: 550px;
+	height: 690px;
+	border-top: 2px solid black;
+	padding: 80px 10px 10px 10px;
+	background-color: gray;
 
+}
+
+#email {
+	
 }
 
 .contact-form {
@@ -208,6 +219,7 @@ background: linear-gradient(to left, #403B4A , #E7E9BB); /* W3C, IE 10+/ Edge, F
 .contact-card ul li {
 	margin: 10px;
 	padding: 10px;
+	color: black;
 }
 
 #message {
@@ -236,6 +248,7 @@ background: linear-gradient(to left, #403B4A , #E7E9BB); /* W3C, IE 10+/ Edge, F
 /* Panels */
 .kursA {
 	background-color: #337AB7;
+	height: 233px;
 }
 
 .kursB {
@@ -248,7 +261,13 @@ background: linear-gradient(to left, #403B4A , #E7E9BB); /* W3C, IE 10+/ Edge, F
 
 .panel-primary {
 	float: left;
+	
 }
+
+.panel {
+	width: 48%;
+}
+
 
 .panel-warning {
 	float: right;
@@ -260,9 +279,19 @@ background: linear-gradient(to left, #403B4A , #E7E9BB); /* W3C, IE 10+/ Edge, F
 	.contact-card,
 	.contact-form {
 		float: none;
+		width: 100%;
+		margin: 0 auto;
 	}
+
+
 	#contact {
-		height: 900px;
+		height: 750px;
+		margin-top: 0px;
+	}
+
+	.aboutme-text {
+		width: 100%;
+		padding-bottom: 0px;
 	}
 
 }
