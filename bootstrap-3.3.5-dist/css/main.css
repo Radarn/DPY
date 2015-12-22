@@ -168,10 +168,9 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 
 .aboutme img {
-
-	height: 350px;
-	width: 350px;	
-	border-radius: 50%;
+	margin-top: 15%;
+	max-width: 100%;	
+	border-radius: 7px;
 }
 
 
@@ -284,14 +283,28 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 
 	#contact {
-		height: 750px;
+		height: 850px;
 		margin-top: 0px;
+
 	}
 
 	.aboutme-text {
 		width: 100%;
 		padding-bottom: 0px;
 	}
+	.aboutme {
+		border-top: none;
+	}
 
 }
+
+@media (max-width: 350px) {
+	#contact {
+		height: 950px;
+	}
+
+}
+
+
+
 
