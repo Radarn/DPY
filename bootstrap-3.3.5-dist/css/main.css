@@ -4,10 +4,8 @@ ul {
 
 
 
-/* Images */
 
-
-/* Containers */
+/************************************* Containers ***************************************/
 
 .header-background {
 	/*background: linear-gradient(to left, #283048 , #859398);*/
@@ -20,10 +18,10 @@ ul {
 	padding-left: 0px;
 	margin-top: -1.465%;
 }
-/* Footer */
+/************************************* Footer *****************************************/
 
 
-/* Buttons */
+/************************************* Buttons ****************************************/
 
 .btn-group-lg > .btn, .btn-lg {
 	background-color: #000;
@@ -35,7 +33,7 @@ ul {
 
 
 
-/* Page Header and Main Nav */
+/******************************* Page Header and Main Nav *******************************/
 
 h1 {
 	font-size: 3.5em;
@@ -102,7 +100,7 @@ h1 {
 }
 
 
-/* School Assignments */
+/*********************************** School Assignments *************************************/
 
 .main-section h3 {
 	font-size: 1.8em;	
@@ -141,17 +139,16 @@ h1 {
     background-color: black;*/
 }
 
-/* About Me */
+/********************************* About Me *******************************/
 
 .main-section {
 
 
 margin-bottom: 0px;
 color: whitesmoke;
-
 background: #232526; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #232526 , whitesmoke); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
         
 }
@@ -161,8 +158,8 @@ background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, F
 }
 
 .aboutme {
-	padding: 100px 10px 100px 10px;
-	border-top: 2px solid black;
+	padding: 120px 10px 100px 10px;
+	border-top: 1px solid black;
 
 
 
@@ -173,14 +170,13 @@ background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, F
 .aboutme img {
 
 	height: 350px;
-	width: 350px;
-	
+	width: 350px;	
 	border-radius: 50%;
 }
 
 
 
-/* Contact */
+/******************************** Contact ********************************/
 
 
 
@@ -188,9 +184,10 @@ background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, F
 
 #contact {
 	height: 690px;
-	border-top: 2px solid black;
+	border-top: 1px solid black;
 	padding: 80px 10px 10px 10px;
-	background-color: gray;
+	/*background-color: gray;*/
+	color: black;
 
 }
 
@@ -237,7 +234,7 @@ background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, F
 }
 
 .contact-card a:hover {
-	color: blue;
+	color: whitesmoke;
 }
 
 .contact-card img {
@@ -245,7 +242,8 @@ background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, F
 	right: 6px;
 
 }
-/* Panels */
+/******************************** Panels ********************************/
+
 .kursA {
 	background-color: #337AB7;
 	height: 233px;
@@ -272,7 +270,8 @@ background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, F
 .panel-warning {
 	float: right;
 }
-/* Media Queries */
+
+/******************************** Media Queries ********************************/
 
 @media (max-width: 768px) {
 	.panel,
