@@ -16,7 +16,11 @@ ul {
 .container-fluid {
 	padding-right: 0px;
 	padding-left: 0px;
-	margin-top: -1.465%;
+	margin-top: -1.55%;
+}
+
+.row {
+	margin-right: 0;
 }
 /************************************* Footer *****************************************/
 
@@ -158,7 +162,7 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 .aboutme {
 	padding: 120px 10px 100px 10px;
-	border-top: 1px solid black;
+	border-top: 1px solid orange;
 }
 
 
@@ -178,7 +182,7 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 #contact {
 	
-	border-top: 1px solid black;
+	border-top: 1px solid orange;
 	padding: 80px 10px 10px 10px;
 	/*background-color: gray;*/
 	color: black;
