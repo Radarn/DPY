@@ -113,11 +113,13 @@ h1 {
 .school-assignments {
 	margin-bottom: 80px;
 
+
 }
 
 .school-assignments h2 {
 	color: orange;
 	margin-bottom: 5%;
+	text-decoration: underline;
 
 }
 
@@ -172,7 +174,7 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	left: 50px;
 	max-width: 100%;	
 	width: 300px;
-	border-radius: 10%;
+	border-radius: 5px;
 }
 
 
@@ -309,6 +311,15 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 		border-top: none;
 	}
 
+}
+
+@media (min-width: 1480px ) {
+	.page-header {
+		height: 680px;
+	}
+	.nav {
+		top: 620px;
+	}
 }
  
 
