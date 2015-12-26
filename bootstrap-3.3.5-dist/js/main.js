@@ -1,12 +1,17 @@
 var mainText = document.getElementsByClassName("text");
 var textone = document.getElementsByClassName("textone");
 var texttwo = document.getElementsByClassName("texttwo");
-var b3 = document.getElementsByClassName("b3");
+var b3 = document.querySelectorAll(".b3");
 var jsbutt =  document.getElementsByClassName("jsButton");
 
 for (var i = 0; i < mainText.length; i+=1){
     mainText[i].style.display = "none";
 }
+
+for (var i = 0; i < b3.length; i+=1) {
+  b3[i].style.display="none";
+}
+
 
 
 jsbutt[0].addEventListener("click", showText);
@@ -38,15 +43,12 @@ function showTextA2() {
 }
 
 function showTextB3() {
-   for (var i = 0; i < b3.length; i+=1){
-   if(b3[i].style.display==="none") {
-   b3[i].style.display = "";
+   if(b3[0].style.display==="none") {
+   $(".b3").fadeIn("slow");
   } else {
-   b3[i].style.display = "none";
+   $(".b3").fadeOut("slow");
    }
    
-    }
-
 }
 
 $(document).ready(function () {
