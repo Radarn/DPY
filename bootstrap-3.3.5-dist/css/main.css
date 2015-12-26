@@ -19,9 +19,7 @@ ul {
 	margin-top: -1.55%;
 }
 
-.row {
-	margin-right: 0;
-}
+
 /************************************* Footer *****************************************/
 
 
@@ -119,7 +117,7 @@ h1 {
 .school-assignments h2 {
 	color: orange;
 	margin-bottom: 5%;
-	text-decoration: underline;
+	font-style: italic;
 
 }
 
@@ -148,15 +146,14 @@ h1 {
 
 .main-section {
 
-
 margin-bottom: 0px;
 color: whitesmoke;
 background: #232526; /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #232526 , whitesmoke); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-        
+                
 }
+
 .aboutme-text {
 	width: 45%;
 	font-size: 1.2em;
@@ -164,7 +161,19 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 .aboutme {
 	padding: 120px 10px 100px 10px;
-	border-top: 1px solid orange;
+	/*border-top: 1px solid orange;*/
+}
+
+.aboutme-card {
+	padding: 70px 0;
+	margin-left: 0.4%;
+	border-top: 45px solid orange;
+	border-bottom: 3px solid orange;
+	border-left: 3px solid orange;
+	border-right: 3px solid orange;
+	border-radius: 7px;
+	margin-right: 0;
+
 }
 
 
@@ -174,7 +183,7 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	left: 50px;
 	max-width: 100%;	
 	width: 300px;
-	border-radius: 5px;
+	border-radius: 7px;
 }
 
 
@@ -187,8 +196,8 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 #contact {
 	
-	border-top: 1px solid orange;
-	padding: 80px 10px 10px 10px;
+	/*border-top: 1px solid orange;*/
+	padding: 50px 10px 10px 10px;
 	/*background-color: gray;*/
 	color: black;
 
@@ -259,6 +268,10 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	background-color: rgba(240, 173, 78, 1);
 }
 
+.kursC {
+	background-color: #87D37C;
+}
+
 .panel-primary > .panel-heading {
 	background-color: rgba(51, 122, 183, 0.8);
 }
@@ -267,6 +280,12 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	position: relative;
 	bottom: 144px;
 	
+}
+
+.panel-success {
+	position: relative;
+	bottom: 150px;
+	right: 310px;
 }
 
 .panel {
