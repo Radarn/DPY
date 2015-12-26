@@ -166,13 +166,14 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 .aboutme-card {
 	padding: 70px 0;
-	margin-left: 0.4%;
+	margin-left: 0.11%;
 	border-top: 45px solid orange;
 	border-bottom: 3px solid orange;
 	border-left: 3px solid orange;
 	border-right: 3px solid orange;
 	border-radius: 7px;
 	margin-right: 0;
+	background-color: rgba(0,0,0, 0.5);
 
 }
 
