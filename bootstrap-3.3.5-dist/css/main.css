@@ -9,14 +9,24 @@ ul {
 
 .header-background {
 	/*background: linear-gradient(to left, #283048 , #859398);*/
-	background: black;
+	/*background: black;*/
+	background-image: url("../images/stockholm.jpg");
+	background-size: cover;
+	background-position: center;
+	
+
 
 }
 
 .container-fluid {
 	padding-right: 0px;
 	padding-left: 0px;
-	margin-top: -1.55%;
+	
+
+}
+
+.main-container{
+	background: #232526;
 }
 
 
@@ -59,10 +69,11 @@ h1 {
 	/*padding-bottom: 250px;*/
 	color: whitesmoke;
 	height: 660px;
+
 }
 
 .nav-pills li {
-	width: 33%;
+	width: 33.33%;
 	text-align: center;
 }
 .nav-pills>li+li { 
@@ -70,6 +81,7 @@ h1 {
 }
 
 .nav-pills a {	
+	background-color: rgba(0,0,0, 0.7);
 	text-decoration: none;
 	transition: all 0.2s ease-out 0s;
 	text-transform: uppercase; 
@@ -83,6 +95,7 @@ h1 {
 	font-size: 1.18em;
     background-color: orange;
     text-decoration: underline;
+
 }
 
 .nav {
@@ -108,11 +121,7 @@ h1 {
 	color: orange;	
 }
 
-.school-assignments {
-	margin-bottom: 80px;
 
-
-}
 
 .school-assignments h2 {
 	color: orange;
@@ -149,8 +158,8 @@ h1 {
 margin-bottom: 0px;
 color: whitesmoke;
 background: #232526; /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #232526 , whitesmoke); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*background: -webkit-linear-gradient(to bottom, #232526 , whitesmoke); /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
                 
 }
 
@@ -180,7 +189,7 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 .aboutme img {
 	position: relative;
-	top: 20px;
+	top: 60px;
 	left: 50px;
 	max-width: 100%;	
 	width: 300px;
@@ -200,7 +209,8 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	/*border-top: 1px solid orange;*/
 	padding: 50px 10px 10px 10px;
 	/*background-color: gray;*/
-	color: black;
+	color: orange;
+
 
 }
 
@@ -224,7 +234,12 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	display: inline-block;
 	position: relative;
 	bottom: 170px;
-	left: 40px;
+	left: 80px;
+	border: 2px solid orange;
+	border-radius: 7px;
+	background-color: rgba(0,0,0, 0.5);
+	text-align: left;
+
 
 
 }
@@ -232,7 +247,7 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 .contact-card ul li {
 	margin: 10px;
 	padding: 10px;
-	color: black;
+	color: whitesmoke;
 }
 
 #message {
@@ -245,8 +260,9 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 }
 
 .contact-card a {
-	color: black;
+	/*color: black;*/
 	transition: all 0.3s ease-out 0s;
+	width: 100%;
 }
 
 .contact-card a:hover {
@@ -286,7 +302,8 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 .panel-success {
 	position: relative;
 	bottom: 150px;
-	right: 310px;
+	
+
 }
 
 .panel {
@@ -310,7 +327,8 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 	.aboutme img {
 		position: initial;
-	}
+		width: 250px;
+		}
 
 	.panel-primary {
 		position: initial;
@@ -320,6 +338,9 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	.contact-card{
 		position: initial;
 		text-align: left;
+		border: initial;
+		background-color: initial;
+
 		
 	}
 
@@ -340,8 +361,17 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	.nav {
 		top: 620px;
 	}
+	.contact-card {
+		text-align: center;
+	}
 }
  
+@media (min-width: 1421px) {
+	.aboutme img {
+		top: 30px;
+		width: 270px;
+	}
+}
 
 
 
