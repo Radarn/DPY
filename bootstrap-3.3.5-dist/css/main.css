@@ -8,11 +8,11 @@ ul {
 /************************************* Containers ***************************************/
 
 .header-background {
-	/*background: linear-gradient(to left, #283048 , #859398);*/
-	/*background: black;*/
-	background-image: url("../images/stockholm.jpg");
+	background: url("../images/stockholm.jpg") no-repeat center center fixed;
 	background-size: cover;
 	background-position: center;
+	position: relative;
+
 	
 
 
@@ -26,7 +26,13 @@ ul {
 }
 
 .main-container{
-	background: #232526;
+	margin-top: 0;
+	background: url("../images/stockholm.jpg") no-repeat center center fixed;
+	background-size: cover;	
+	position: relative;
+	margin-bottom: 0px;
+	color: whitesmoke;
+
 }
 
 
@@ -66,7 +72,6 @@ h1 {
 .page-header {
 	text-align: center;
 	background-color: transparent;
-	/*padding-bottom: 250px;*/
 	color: whitesmoke;
 	height: 660px;
 
@@ -107,7 +112,7 @@ h1 {
 	margin-left: 5px;
 	margin-right: 5px;
 }
-/* Blogg page */
+/*********************************** Blog page **************************************/
 
 .bloggMain h2 {
 	margin-bottom: 4%;
@@ -124,7 +129,7 @@ h1 {
 
 
 .school-assignments h2 {
-	color: orange;
+	
 	margin-bottom: 5%;
 	font-style: italic;
 
@@ -142,26 +147,15 @@ h1 {
 	transition: all 0.2s ease-out 0s;
 	text-decoration: none;
 	color: white;
-	/*color: #1F3A93;*/
 }
+
 .assignment-list li a:hover {
 	font-size: 1.1em;
 	text-decoration: underline;
-    /*color: firebrick;
-    background-color: black;*/
 }
 
 /********************************* About Me *******************************/
 
-.main-section {
-
-margin-bottom: 0px;
-color: whitesmoke;
-background: #232526; /* fallback for old browsers */
-/*background: -webkit-linear-gradient(to bottom, #232526 , whitesmoke); /* Chrome 10-25, Safari 5.1-6 */
-/*background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-                
-}
 
 .aboutme-text {
 	width: 45%;
@@ -169,8 +163,8 @@ background: #232526; /* fallback for old browsers */
 }
 
 .aboutme {
-	padding: 120px 10px 100px 10px;
-	/*border-top: 1px solid orange;*/
+	padding: 0px 10px 100px 10px;
+	
 }
 
 .aboutme-card {
@@ -204,19 +198,11 @@ background: #232526; /* fallback for old browsers */
 
 
 
-#contact {
-	
-	/*border-top: 1px solid orange;*/
+#contact {	
 	padding: 50px 10px 10px 10px;
-	/*background-color: gray;*/
 	color: orange;
-
-
 }
 
-#email {
-	
-}
 
 .contact-form {
 	width: 30%;
@@ -260,7 +246,6 @@ background: #232526; /* fallback for old browsers */
 }
 
 .contact-card a {
-	/*color: black;*/
 	transition: all 0.3s ease-out 0s;
 	width: 100%;
 }
@@ -276,16 +261,16 @@ background: #232526; /* fallback for old browsers */
 }
 /******************************** Panels ********************************/
 
-.kursA {
+.kurs-a {
 	background-color: #337AB7;
 	height: 233px;
 }
 
-.kursB {
+.kurs-b {
 	background-color: rgba(240, 173, 78, 1);
 }
 
-.kursC {
+.kurs-c {
 	background-color: #87D37C;
 }
 
