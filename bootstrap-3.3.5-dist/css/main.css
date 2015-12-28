@@ -41,7 +41,7 @@ ul {
 
 /************************************* Buttons ****************************************/
 
-.btn-group-lg > .btn, .btn-lg {
+.blog-main .btn-group-lg > .btn, .btn-lg {
 	background-color: #000;
 	color: white;
 	border-radius: 20px;
@@ -59,6 +59,7 @@ h1 {
 	top: 200px;
 	left: 0;
 	width: 100%;
+	text-shadow: 2px;
 }
 
 .page-header h3 {
@@ -97,9 +98,9 @@ h1 {
 
 .nav > li > a:focus, .nav > li > a:hover {
 	
-	font-size: 1.18em;
     background-color: orange;
     text-decoration: underline;
+
 
 }
 
@@ -114,7 +115,7 @@ h1 {
 }
 /*********************************** Blog page **************************************/
 
-.bloggMain h2 {
+.blog-main h2 {
 	margin-bottom: 4%;
 }
 
@@ -123,7 +124,7 @@ h1 {
 
 .main-section h3 {
 	font-size: 1.8em;
-	color: orange;	
+	color: #E87E04;	
 }
 
 
@@ -200,7 +201,7 @@ h1 {
 
 #contact {	
 	padding: 50px 10px 10px 10px;
-	color: orange;
+	color: #E87E04;
 }
 
 
@@ -263,7 +264,7 @@ h1 {
 
 .kurs-a {
 	background-color: #337AB7;
-	height: 233px;
+	height: 203px;
 }
 
 .kurs-b {
@@ -276,17 +277,18 @@ h1 {
 
 .panel-primary > .panel-heading {
 	background-color: rgba(51, 122, 183, 0.8);
+	padding: 25px 30px;
 }
 
 .panel-primary {
 	position: relative;
-	bottom: 144px;
+	bottom: 114px;
 	
 }
 
 .panel-success {
 	position: relative;
-	bottom: 150px;
+	bottom: 120px;
 	
 
 }
@@ -302,6 +304,34 @@ h1 {
 
 /******************************** Media Queries ********************************/
 
+
+
+@media (max-width: 970px) {
+
+	.contact-card {
+		background-color: initial;
+		border: initial;
+	}
+
+	.aboutme-text {
+		width: 100%;
+		padding-bottom: 0px;
+	}
+	.aboutme {
+		margin-top: 10px;
+	}
+	.aboutme img {
+		display: block;
+		position: initial;
+		margin: 0 auto;
+		width: 240px;
+	}
+	
+	.main-section h3 {
+		text-align: center;
+	}
+}
+
 @media (max-width: 768px) {
 	.panel,
 	.contact-form {
@@ -310,33 +340,34 @@ h1 {
 		margin: 0 auto;
 	}
 
-	.aboutme img {
-		position: initial;
-		width: 250px;
-		}
-
-	.panel-primary {
-		position: initial;
-	}
-
-
 	.contact-card{
 		position: initial;
 		text-align: left;
-		border: initial;
-		background-color: initial;
 
 		
 	}
 
-	.aboutme-text {
+	.nav > li {
 		width: 100%;
-		padding-bottom: 0px;
-	}
-	.aboutme {
-		border-top: none;
+		bottom: 70px;
+
 	}
 
+	.contact-card ul li {
+		font-size: 1.2em;
+	}
+}
+
+
+ 
+@media (min-width: 1421px) {
+	.aboutme img {
+		top: 30px;
+		width: 270px;
+	}
+	.contact-card {
+		padding-bottom: 20px;
+	}
 }
 
 @media (min-width: 1480px ) {
@@ -348,15 +379,12 @@ h1 {
 	}
 	.contact-card {
 		text-align: center;
+		padding-bottom: 20px;
 	}
+	
+
 }
- 
-@media (min-width: 1421px) {
-	.aboutme img {
-		top: 30px;
-		width: 270px;
-	}
-}
+
 
 
 
