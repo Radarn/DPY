@@ -1,21 +1,17 @@
+/* Extremely bad code, no best practices. Going to fix when I have time */
+
 var mainText = document.getElementsByClassName("text");
 var textone = document.getElementsByClassName("textone");
 var texttwo = document.getElementsByClassName("texttwo");
 var b3 = document.querySelectorAll(".b3");
-var c1 = document.querySelectorAll(".c1")
+var c1 = document.querySelectorAll(".c1");
 var jsbutt =  document.getElementsByClassName("jsButton");
 
 for (var i = 0; i < mainText.length; i+=1){
     mainText[i].style.display = "none";
 }
 
-for (var i = 0; i < b3.length; i+=1) {
-  b3[i].style.display="none";
-}
 
-for (var i = 0; i < c1.length; i+=1) {
-  c1[i].style.display="none";
-}
 
 
 
@@ -25,31 +21,26 @@ jsbutt[2].addEventListener("click", showTextB3);
 jsbutt[3].addEventListener("click", showTextC1);
 
 function showText() {
-   for (var i = 0; i < textone.length; i+=1){
-   if(textone[i].style.display==="none") {
-   textone[i].style.display = "";
+   for (var i = 0; i < textone.length; i+=1){}
+   if(textone[0].style.display === "none") {
+   $(".textone").fadeIn("slow");
   } else {
-   textone[i].style.display = "none";
+   $(".textone").fadeOut("slow");
    }
-   
-    }
-
 }
 
 function showTextA2() {
-   for (var i = 0; i < texttwo.length; i+=1){
-   if(texttwo[i].style.display==="none") {
-   texttwo[i].style.display = "";
+   for (var i = 0; i < texttwo.length; i+=1){}
+   if(texttwo[0].style.display === "none") {
+   $(".texttwo").fadeIn("slow");
   } else {
-   texttwo[i].style.display = "none";
+   $(".texttwo").fadeOut("slow");
    }
-   
-    }
-
 }
 
 function showTextB3() {
-   if(b3[0].style.display==="none") {
+  for (var i = 0; i < b3.length; i+=1) {}
+   if(b3[0].style.display=== "none") {
    $(".b3").fadeIn("slow");
   } else {
    $(".b3").fadeOut("slow");
@@ -58,6 +49,9 @@ function showTextB3() {
 }
 
 function showTextC1() {
+  for (var i = 0; i < c1.length; i+=1) {
+}
+
   if(c1[0].style.display === "none") {
     $(".c1").fadeIn("slow");
   } else {
