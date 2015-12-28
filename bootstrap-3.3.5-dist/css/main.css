@@ -133,6 +133,9 @@ h1 {
 	
 	margin-bottom: 5%;
 	font-style: italic;
+	background-color: rgba(0,0,0, 0.6);
+	border-bottom: 1px solid orange;
+	border-top: 1px solid orange;
 
 }
 
