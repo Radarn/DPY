@@ -2,22 +2,46 @@ ul {
 	list-style: none;
 }
 
+/******************************* Fonts *****************************/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,900,700);
 
+body {
+	font-family: 'Lato', 'Helvetica', sans-serif;
+}
 
 
 /************************************* Containers ***************************************/
 
 .header-background {
-	/*background: linear-gradient(to left, #283048 , #859398);*/
-	background: black;
+	background: url("../images/stockholm.jpg") no-repeat center center fixed;
+	background-size: cover;
+	background-position: center;
+	position: relative;*/
+
+	
+
 
 }
 
 .container-fluid {
 	padding-right: 0px;
 	padding-left: 0px;
-	margin-top: -1.55%;
+	
+
 }
+
+.main-container{
+	margin-top: 0;
+	background: url("../images/stockholm.jpg") no-repeat center center fixed;
+	background-size: cover;	
+	position: relative;*/
+	margin-bottom: 0px;
+	color: whitesmoke;
+
+}
+
+
+
 
 
 /************************************* Footer *****************************************/
@@ -25,7 +49,7 @@ ul {
 
 /************************************* Buttons ****************************************/
 
-.btn-group-lg > .btn, .btn-lg {
+.blog-main .btn-group-lg > .btn, .btn-lg {
 	background-color: #000;
 	color: white;
 	border-radius: 20px;
@@ -39,14 +63,18 @@ ul {
 
 h1 {
 	font-size: 3.5em;
+	font-weight: 700;
 	position: absolute;
 	top: 200px;
 	left: 0;
 	width: 100%;
+	text-shadow: 2px;
+	letter-spacing: 1px;
 }
 
 .page-header h3 {
 	font-size: 2.5em;
+	font-weight: 700;
 	position: absolute;
 	top: 300px;
 	left: 0;
@@ -56,13 +84,13 @@ h1 {
 .page-header {
 	text-align: center;
 	background-color: transparent;
-	/*padding-bottom: 250px;*/
 	color: whitesmoke;
 	height: 660px;
+
 }
 
 .nav-pills li {
-	width: 33%;
+	width: 33.33%;
 	text-align: center;
 }
 .nav-pills>li+li { 
@@ -70,6 +98,7 @@ h1 {
 }
 
 .nav-pills a {	
+	background-color: rgba(0,0,0, 0.7);
 	text-decoration: none;
 	transition: all 0.2s ease-out 0s;
 	text-transform: uppercase; 
@@ -80,9 +109,10 @@ h1 {
 
 .nav > li > a:focus, .nav > li > a:hover {
 	
-	font-size: 1.18em;
     background-color: orange;
     text-decoration: underline;
+
+
 }
 
 .nav {
@@ -94,9 +124,9 @@ h1 {
 	margin-left: 5px;
 	margin-right: 5px;
 }
-/* Blogg page */
+/*********************************** Blog page **************************************/
 
-.bloggMain h2 {
+.blog-main h2 {
 	margin-bottom: 4%;
 }
 
@@ -105,23 +135,22 @@ h1 {
 
 .main-section h3 {
 	font-size: 1.8em;
-	color: orange;	
+	color: #E87E04;	
 }
 
-.school-assignments {
-	margin-bottom: 80px;
 
-
-}
 
 .school-assignments h2 {
-	color: orange;
 	margin-bottom: 5%;
 	font-style: italic;
+	background-color: rgba(0,0,0, 0.6);
+	border-bottom: 1px solid orange;
+	border-top: 1px solid orange;
 
 }
 
-.assignment-list {
+
+.assignment-list{
 	font-size: 1.2em;
 }
 
@@ -133,26 +162,15 @@ h1 {
 	transition: all 0.2s ease-out 0s;
 	text-decoration: none;
 	color: white;
-	/*color: #1F3A93;*/
 }
+
 .assignment-list li a:hover {
 	font-size: 1.1em;
 	text-decoration: underline;
-    /*color: firebrick;
-    background-color: black;*/
 }
 
 /********************************* About Me *******************************/
 
-.main-section {
-
-margin-bottom: 0px;
-color: whitesmoke;
-background: #232526; /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #232526 , whitesmoke); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-                
-}
 
 .aboutme-text {
 	width: 45%;
@@ -160,26 +178,27 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 }
 
 .aboutme {
-	padding: 120px 10px 100px 10px;
-	/*border-top: 1px solid orange;*/
+	padding: 0px 10px 100px 10px;
+	
 }
 
 .aboutme-card {
 	padding: 70px 0;
-	margin-left: 0.4%;
+	margin-left: 0.11%;
 	border-top: 45px solid orange;
 	border-bottom: 3px solid orange;
 	border-left: 3px solid orange;
 	border-right: 3px solid orange;
 	border-radius: 7px;
 	margin-right: 0;
+	background-color: rgba(0,0,0, 0.5);
 
 }
 
 
 .aboutme img {
 	position: relative;
-	top: 20px;
+	top: 60px;
 	left: 50px;
 	max-width: 100%;	
 	width: 300px;
@@ -194,18 +213,11 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 
 
-#contact {
-	
-	/*border-top: 1px solid orange;*/
+#contact {	
 	padding: 50px 10px 10px 10px;
-	/*background-color: gray;*/
-	color: black;
-
+	color: #E87E04;
 }
 
-#email {
-	
-}
 
 .contact-form {
 	width: 30%;
@@ -223,7 +235,12 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	display: inline-block;
 	position: relative;
 	bottom: 170px;
-	left: 40px;
+	left: 80px;
+	border: 2px solid orange;
+	border-radius: 7px;
+	background-color: rgba(0,0,0, 0.5);
+	text-align: left;
+
 
 
 }
@@ -231,7 +248,7 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 .contact-card ul li {
 	margin: 10px;
 	padding: 10px;
-	color: black;
+	color: whitesmoke;
 }
 
 #message {
@@ -244,8 +261,8 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 }
 
 .contact-card a {
-	color: black;
 	transition: all 0.3s ease-out 0s;
+	width: 100%;
 }
 
 .contact-card a:hover {
@@ -259,33 +276,35 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 }
 /******************************** Panels ********************************/
 
-.kursA {
+.kurs-a {
 	background-color: #337AB7;
-	height: 233px;
+	height: 203px;
 }
 
-.kursB {
+.kurs-b {
 	background-color: rgba(240, 173, 78, 1);
 }
 
-.kursC {
+.kurs-c {
 	background-color: #87D37C;
 }
 
 .panel-primary > .panel-heading {
 	background-color: rgba(51, 122, 183, 0.8);
+	padding: 25px 30px;
 }
 
 .panel-primary {
 	position: relative;
-	bottom: 144px;
+	bottom: 114px;
 	
 }
 
 .panel-success {
 	position: relative;
-	bottom: 150px;
-	right: 310px;
+	bottom: 120px;
+	
+
 }
 
 .panel {
@@ -299,6 +318,34 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 
 /******************************** Media Queries ********************************/
 
+
+
+@media (max-width: 970px) {
+
+	.contact-card {
+		background-color: initial;
+		border: initial;
+	}
+
+	.aboutme-text {
+		width: 100%;
+		padding-bottom: 0px;
+	}
+	.aboutme {
+		margin-top: 10px;
+	}
+	.aboutme img {
+		display: block;
+		position: initial;
+		margin: 0 auto;
+		width: 240px;
+	}
+	
+	.main-section h3 {
+		text-align: center;
+	}
+}
+
 @media (max-width: 768px) {
 	.panel,
 	.contact-form {
@@ -307,29 +354,34 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 		margin: 0 auto;
 	}
 
-	.aboutme img {
-		position: initial;
-	}
-
-	.panel-primary {
-		position: initial;
-	}
-
-
 	.contact-card{
 		position: initial;
 		text-align: left;
+
 		
 	}
 
-	.aboutme-text {
+	.nav > li {
 		width: 100%;
-		padding-bottom: 0px;
-	}
-	.aboutme {
-		border-top: none;
+		bottom: 70px;
+
 	}
 
+	.contact-card ul li {
+		font-size: 1.2em;
+	}
+}
+
+
+ 
+@media (min-width: 1421px) {
+	.aboutme img {
+		top: 30px;
+		width: 270px;
+	}
+	.contact-card {
+		padding-bottom: 20px;
+	}
 }
 
 @media (min-width: 1480px ) {
@@ -339,9 +391,13 @@ background: linear-gradient(to bottom, #232526 , whitesmoke); /* W3C, IE 10+/ Ed
 	.nav {
 		top: 620px;
 	}
-}
- 
+	.contact-card {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	
 
+}
 
 
 

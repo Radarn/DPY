@@ -22,20 +22,20 @@
 				</nav>		
 			</header>								
 		</div>
-		<div class="container-fluid">
+		<div class="container-fluid main-container">
 			<main class="main-section">
-				<section class="text-center school-assignments" id="#school-assignments">
-					<h2>These are the school assignments that i've done during my education. Some of them are written in Swedish.</h2>
+				<section class="text-center school-assignments" id="school-assignments">
+					<h2>These are the school assignments that i've done during my education. <br>Some of them are written in Swedish.</h2>
 					<div class="panel panel-primary">
 						<h3 class="panel-heading">Kurs 1 - Webbutveckling 20 p (4 veckor)</h3>
-						<ul class="assignment-list kursA panel-body">
+						<ul class="assignment-list kurs-a panel-body">
 							<li><a href="blogg.html">A_1 Webben om fem år</a></li>
 							<li><a href="blogg.html">A_2 Att arbeta med Javascript</a></li>
 						</ul>
 					</div>
 					<div class="panel panel-warning">
 						<h3 class="panel-heading">Kurs 2 - HTML, CSS och webbstandarder 50 p (10 veckor)</h3>
-						<ul class="assignment-list kursB panel-body">	
+						<ul class="assignment-list kurs-b panel-body">	
 							<li><a href="http://radarn.github.io/applepie">B_1 HTML - Individuell</a></li>
 							<li><a href="http://radarn.github.io/b_2">B_2 CSS - Individuell</a></li>			
 							<li><a href="http://robhogfeldt-fron15.github.io/visitmeonline">B_3 Webbsida utan ramverk - Grupp</a></li>
@@ -45,19 +45,20 @@
 						</ul>
 					</div>
 					<div class="panel panel-success">
-						<h3 class="panel-heading">Kurs 3 - Webbapplikationsutveckling 40 p (8 veckor)</h3>
+						<h3 class="panel-heading">Kurs 3 - Webbapplikationsutveckling 40 p (10 veckor)</h3>
 					
-						<ul class="assignment-list kursC panel-body">
+						<ul class="assignment-list kurs-c panel-body">
 							<li><a href="http://radarn.github.io/C1/">C_1 To Do Application</a></li>
+							<li><a href="blogg.html">Reflektion C_1</a></li>
 						</ul>
 					</div>
 				</section>
 				<section class="aboutme" id="aboutme">					
 					<div class="row aboutme-card">
-						<div class="col-sm-3 col-sm-offset-1">
+						<div class="col-md-3 col-md-offset-1">
 							<img src="bootstrap-3.3.5-dist/images/selfiefarg.jpg" alt="selfie">
 						</div>
-						<div class="col-sm-6 col-sm-offset-2 aboutme-text">
+						<div class="col-md-6 col-md-offset-2 aboutme-text">
 							<h3>Hi, I'm Arthur Berg</h3>
 							<p>I’m a Front-end Developer student at Lernia Yrkeshögskola. When learning something new, either playing an instrument or writing code, it’s important for me to see it as a an ongoing proccess and that involves both enjoying the moments when everything goes my way and to develop from the difficulties and obstacles.</p>						
 							<p>I’m very excited and happy that I've found my way into coding. The more I learn the more interesting it gets. It’s the problem solving that really gets me excited, there is a lot of room for creativity because of the many different ways you can tackle a problem. I couldn’t think of a more powerful tool to learn in today’s world.</p>
@@ -68,8 +69,8 @@
 					</div>
 				</section>
 				<section class="contact" id="contact">
-					<h2 class="text-center">Under construction...</h2>
-					<form class="contact-form" id="contact-form">
+					<h2 class="text-center">Under construction... Please use the Email link instead of the form...</h2>
+					<form class="contact-form" id="contact-form" action="mailto:radarberg@gmail.com" method="post" enctype="multipart/form-data">
 						<div class="form-group">
 							<label for="namn">Namn</label>
 							<input type="name" class="form-control input-lg" id="name" placeholder="Name">
@@ -82,13 +83,13 @@
 							<label for="message">Message</label>
 							<textarea class="form-control input-lg" rows="10" type="message"></textarea>
 						</div>
-						<button type="submit" class="btn-lg btn-success">Send Message</button>
+						<button type="submit" class="btn-lg btn-success" action="mailto:radarberg@gmail.com" method="post" enctype="multipart/form-data">Send Message</button>
 					</form>
-					<div class="contact-card ">
+					<div class="contact-card row">
 						<ul>
-							<li><a href="mailto:radarberg@gmail.com"><span class="glyphicon glyphicon-envelope"></span>radarberg@gmail.com</a></li>
-							<li><a href="https://github.com/Radarn"><img src="bootstrap-3.3.5-dist/images/githublogo.jpg">github.com/Radarn</a></li>
-							<li><span class="glyphicon glyphicon-earphone"></span>Cellphone: 0761896222</li>
+							<li class="col-sm-12"><span class="glyphicon glyphicon-earphone"></span>Cellphone: 0761896222</li>
+							<li class="col-sm-12"><a href="mailto:radarberg@gmail.com"><span class="glyphicon glyphicon-envelope"></span>radarberg@gmail.com</a></li>
+							<li class="col-sm-12"><a href="https://github.com/Radarn"><img src="bootstrap-3.3.5-dist/images/githublogo.jpg">github.com/Radarn</a></li>
 						</ul>
 					</div>
 				</section>		
