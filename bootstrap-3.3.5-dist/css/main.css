@@ -10,6 +10,7 @@ body {
 }
 
 
+
 /************************************* Containers ***************************************/
 
 .header-background {
@@ -49,7 +50,7 @@ body {
 
 /************************************* Buttons ****************************************/
 
-.btn-default{
+.btn-default {
 	background-color: #000;
 	color: white;
 	border-radius: 20px;
