@@ -10,6 +10,7 @@ body {
 }
 
 
+
 /************************************* Containers ***************************************/
 
 .header-background {
@@ -49,12 +50,16 @@ body {
 
 /************************************* Buttons ****************************************/
 
-.blog-main .btn-group-lg > .btn, .btn-lg {
+.btn-default {
 	background-color: #000;
 	color: white;
 	border-radius: 20px;
 	margin-left: 2%;
 	margin-top: 0.5%;
+}
+
+.btn-default:hover {
+	background-color: rgba(255,255,255, 0.3);
 }
 
 
