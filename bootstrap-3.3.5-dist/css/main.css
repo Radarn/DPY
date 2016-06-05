@@ -294,6 +294,10 @@ h1 {
 	background-color: #87D37C;
 }
 
+.kurs-e {
+	background-color: #a94442;
+}
+
 .panel-primary > .panel-heading {
 	background-color: rgba(51, 122, 183, 0.8);
 	padding: 25px 30px;
@@ -303,6 +307,11 @@ h1 {
 	position: relative;
 	bottom: 114px;
 	
+}
+
+.panel-danger {
+	position: relative;
+	bottom: 227px;
 }
 
 .panel-success {
@@ -317,9 +326,6 @@ h1 {
 	display: inline-block;
 }
 
-.panel-warning {
-	
-}
 
 /******************************** Media Queries ********************************/
 
