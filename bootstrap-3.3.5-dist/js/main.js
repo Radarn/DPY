@@ -5,6 +5,7 @@ var textone = document.getElementsByClassName("textone");
 var texttwo = document.getElementsByClassName("texttwo");
 var b3 = document.querySelectorAll(".b3");
 var c1 = document.querySelectorAll(".c1");
+var e_5 = document.querySelectorAll(".e_5");
 var jsbutt =  document.getElementsByClassName("jsButton");
 
 for (var i = 0; i < mainText.length; i+=1){
@@ -41,10 +42,11 @@ $(document).ready(function()
 
 /* Blog Page ... Need to sort out so that this code only loads on blog.html */
 
-jsbutt[0].addEventListener("click", showText);
-jsbutt[1].addEventListener("click", showTextA2);
-jsbutt[2].addEventListener("click", showTextB3);
-jsbutt[3].addEventListener("click", showTextC1);
+jsbutt[0].addEventListener("click", showTextE5);
+jsbutt[1].addEventListener("click", showText);
+jsbutt[2].addEventListener("click", showTextA2);
+jsbutt[3].addEventListener("click", showTextB3);
+jsbutt[4].addEventListener("click", showTextC1);
 
 function showText() {
    for (var i = 0; i < textone.length; i+=1){}
@@ -52,6 +54,15 @@ function showText() {
    $(".textone").fadeIn("slow");
   } else {
    $(".textone").fadeOut("slow");
+   }
+}
+
+function showTextE5() {
+   for (var i = 0; i < e_5.length; i+=1){}
+   if(e_5[0].style.display === "none") {
+   $(".e_5").fadeIn("slow");
+  } else {
+   $(".e_5").fadeOut("slow");
    }
 }
 
